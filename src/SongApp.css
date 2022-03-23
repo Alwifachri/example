@@ -1,0 +1,19 @@
+.Song-App {
+    text-align: center;
+}
+
+.Image {
+    max-width: 30%;
+    margin: 10px;
+}
+
+.Title p {
+    font-size: 30px ;
+    font-weight: bold;
+}
+
+.Artist p {
+    font-size: 20px ;
+    font-weight: bold;
+}
+

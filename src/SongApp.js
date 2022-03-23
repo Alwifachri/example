@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import data from './Song.js';
 import './SongApp.css';
 
-class App extends Component {
+class Appsong extends Component {
   render() {
     return (
       <div className="Song-App">
@@ -27,4 +27,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Appsong;
