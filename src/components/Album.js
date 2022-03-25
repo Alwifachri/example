@@ -4,11 +4,8 @@ import '../SongApp.css';
 const SongAlbum = () => {
 return (
     <div className="Album">{
-            data.album.images.map((images,i) => {
-            return <img key={i} src={images.url} alt={data.album.name} className="Image" />    
+            <img src="https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b" alt={data.album.name} className="Image" />    
             }
-        )
-    }
     </div>
     )
 };
