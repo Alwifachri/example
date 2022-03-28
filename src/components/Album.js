@@ -1,13 +1,20 @@
 import data from '../Song.js';
+import Songbutton from './Button.js';
 import '../SongApp.css';
 
 const SongAlbum = () => {
-return (
-    <div className="Album">{
-            <img src="https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b" alt={data.album.name} className="Image" />    
-            }
-    </div>
+    return (
+        data.map(e => (
+            <div className="Songs">
+                <p>{e.album.name}</p>
+                <img src={e.album.images[1].url} alt={e.album.name} />
+                <p>{e.name}</p>
+                <p>{e.artists[0].name}</p>
+                <Songbutton />
+            </div>
+        )
     )
-};
+    )
+}
 
 export default SongAlbum;

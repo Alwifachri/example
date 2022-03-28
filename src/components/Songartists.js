@@ -5,7 +5,7 @@ const SongArtist = () => {
 return (
 <div className="Artist">{
     data.album.artists.map((artists,i) => {
-    return <p key={i}>{artists.name}</p>    
+    return <p>{artists.name}</p>    
     })
     }
 </div>
